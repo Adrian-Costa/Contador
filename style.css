@@ -6,15 +6,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    margin: 20px 0px 30px 0px;
+}
 body{
     display: grid;
     background-color: rgb(62, 255, 181);
-    
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    color: white;
 }
 div{
     background-color: white;
+    color: black;
     width: 400px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
+    text-align: left;
+}
+#contar{
+    padding: 5px 20px;
 }
